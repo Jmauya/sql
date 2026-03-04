@@ -1,5 +1,4 @@
 Setting environment for using XAMPP for Windows.
-ASUS@LAPTOP-H9G4LNLN c:\xampp
 # mysql -u root -p
 Enter password:
 Welcome to the MariaDB monitor.  Commands end with ; or \g.
