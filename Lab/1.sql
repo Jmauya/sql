@@ -1,5 +1,5 @@
 Setting environment for using XAMPP for Windows.
-PC@DESKTOP-6ESTTI4 c:\xampp
+dell@windows-6ESTTI4 c:\xampp
 # mysql -u root -p
 Enter password:
 Welcome to the MariaDB monitor.  Commands end with ; or \g.
