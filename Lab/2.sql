@@ -1,6 +1,6 @@
 Setting environment for using XAMPP for Windows.
 # mysql -u root -p
-    Enter password:
+Enter password:
 Welcome to the MariaDB monitor.  Commands end with ; or \g.
 Your MariaDB connection id is 8
 Server version: 10.4.32-MariaDB mariadb.org binary distribution
