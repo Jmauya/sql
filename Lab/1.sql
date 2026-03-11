@@ -40,6 +40,7 @@ MariaDB [StudentDataBase]> CREATE TABLE Lab_grades (
     ->   cgpa DECIMAL(3,2),
     ->   submission_date DATE
     -> );
+
 Query OK, 0 rows affected (0.003 sec)
 
 MariaDB [StudentDataBase]> SHOW TABLES;
