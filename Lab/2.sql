@@ -22,7 +22,6 @@ MariaDB [(none)]> SHOW DATABASES
 
 MariaDB [(none)]> CREATE DATABASE STUDENT_INFO;
 Query OK, 1 row affected (0.002 sec)
-
 MariaDB [(none)]> USE STUDENT_INFO;
 Database changed
 MariaDB [STUDENT_INFO]> CREATE TABLE Lab_grades ( student_id CHAR(4),
