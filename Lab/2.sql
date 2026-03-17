@@ -19,7 +19,6 @@ MariaDB [(none)]> SHOW DATABASES
 | test               |
 +--------------------+
 6 rows in set (0.022 sec)
-
 MariaDB [(none)]> CREATE DATABASE STUDENT_INFO;
 Query OK, 1 row affected (0.002 sec)
 MariaDB [(none)]> USE STUDENT_INFO;
