@@ -39,7 +39,6 @@ MariaDB [STUDENT_INFO]> SHOW TABLES;
 | lab_grades             |
 +------------------------+
 1 row in set (0.000 sec)
-
 MariaDB [STUDENT_INFO]> DESCRIBE Lab_grades;
 +-----------------+--------------+------+-----+---------+-------+
 | Field           | Type         | Null | Key | Default | Extra |
