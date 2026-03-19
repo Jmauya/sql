@@ -7,7 +7,7 @@ Server version: 10.4.32-MariaDB mariadb.org binary distribution
 Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
 Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 MariaDB [(none)]> SHOW DATABASES
-    -> ;
+-> ;
 +--------------------+
 | Database           |
 +--------------------+
