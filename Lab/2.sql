@@ -56,7 +56,6 @@ MariaDB [STUDENT_INFO]> DESCRIBE Lab_grades;
 
 MariaDB [STUDENT_INFO]> insert into Lab_grades values ('s01','abir','CS','1',10,18.5,3.91,'2018-09-15');
 Query OK, 1 row affected (0.038 sec)
-
 MariaDB [STUDENT_INFO]> select * from lab_grades;
 +------------+------+-------+---------+--------------+---------------+------+-----------------+
 | student_id | NAME | MAJOR | SECTION | DAYS_PRESENT | PROJECT_MARKS | CGPA | SUBMISSION_DATE |
