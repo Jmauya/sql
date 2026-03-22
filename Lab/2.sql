@@ -34,6 +34,7 @@ MariaDB [STUDENT_INFO]> CREATE TABLE Lab_grades ( student_id CHAR(4),
     -> SUBMISSION_DATE DATE);
 Query OK, 0 rows affected (0.007 sec)
 MariaDB [STUDENT_INFO]> SHOW TABLES;
+
 +------------------------+
 | Tables_in_student_info |
 +------------------------+
