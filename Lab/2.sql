@@ -65,7 +65,6 @@ MariaDB [STUDENT_INFO]> select * from lab_grades;
 | s01        | abir | CS    | 1       |           10 |          18.5 | 3.91 | 2018-09-15      |
 +------------+------+-------+---------+--------------+---------------+------+-----------------+
 1 row in set (0.001 sec)
-
 MariaDB [STUDENT_INFO]> insert into Lab_grades values ('s019','Naima','CSE','2',12,20,3.7,'2018-08-14'),
     -> ('s002','NAFIS','CSE','1',12,20,3.86,'2018-08-15');
 Query OK, 2 rows affected (0.001 sec)
