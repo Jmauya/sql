@@ -1,13 +1,13 @@
 1. List all employee names along with their department names
 
-SQL
+
 SELECT e.name, d.dept_name 
 FROM employees e 
 JOIN departments d ON e.dept_id = d.dept_id;
 
 2. Show employee names with the names of the projects assigned
 
-SQL
+
 SELECT e.name, p.proj_name 
 FROM employees e 
 JOIN works_on w ON e.emp_id = w.emp_id 
