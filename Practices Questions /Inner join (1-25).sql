@@ -1,6 +1,5 @@
 1. List all employee names along with their department names
 
-
 SELECT e.name, d.dept_name 
 FROM employees e 
 JOIN departments d ON e.dept_id = d.dept_id;
@@ -75,7 +74,6 @@ ORDER BY d.dept_name ASC;
 
 11. Show employees working in the same department as 'John Doe'
 
-
 SELECT name FROM employees 
 WHERE dept_id = (SELECT dept_id FROM employees WHERE name = 'John Doe') 
 AND name != 'John Doe';
@@ -90,14 +88,12 @@ JOIN employees e ON w.emp_id = e.emp_id;
 
 13. Find employees who have no assigned project
 
-
 SELECT e.name 
 FROM employees e 
 LEFT JOIN works_on w ON e.emp_id = w.emp_id 
 WHERE w.proj_id IS NULL;
 
 14. List departments that currently have no employees
-
 
 SELECT d.dept_name 
 FROM departments d 
