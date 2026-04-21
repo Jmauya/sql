@@ -7,7 +7,6 @@ JOIN departments d ON e.dept_id = d.dept_id;
 
 2. Show employee names with the names of the projects assigned
 
-
 SELECT e.name, p.proj_name 
 FROM employees e 
 JOIN works_on w ON e.emp_id = w.emp_id 
@@ -21,7 +20,6 @@ FROM employees e
 LEFT JOIN employees m ON e.manager_id = m.emp_id;
 
 4. List employees and the cities of their departments
-
 
 SELECT e.name, d.city 
 FROM employees e 
@@ -42,7 +40,6 @@ JOIN departments d ON e.dept_id = d.dept_id
 WHERE d.city = 'San Francisco';
 
 7. List all employees on projects started in 2023
-
 
 SELECT DISTINCT e.name 
 FROM employees e 
