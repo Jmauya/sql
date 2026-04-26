@@ -1,4 +1,4 @@
--- Create a dimension table called route that will hold the route information.
+ -- Create a dimension table called route that will hold the route information.
 CREATE TABLE route (
     route_id SERIAL PRIMARY KEY,
     route_name VARCHAR(160),
