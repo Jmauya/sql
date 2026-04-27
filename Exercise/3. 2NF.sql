@@ -1,4 +1,4 @@
-/* INSTRUCTIONS:
+ /* INSTRUCTIONS:
 1. Create a new table 'cars' to hold car-specific attributes to satisfy 2NF.
 2. Insert distinct car records from 'customer_rentals' into the 'cars' table.
 3. Drop car-specific columns from 'customer_rentals' to remove partial dependencies.
