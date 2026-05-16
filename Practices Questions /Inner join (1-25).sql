@@ -18,7 +18,6 @@ FROM employees e
 LEFT JOIN employees m ON e.manager_id = m.emp_id;
 
 4. List employees and the cities of their departments
-
 SELECT e.name, d.city 
 FROM employees e 
 JOIN departments d ON e.dept_id = d.dept_id;
