@@ -1,4 +1,4 @@
- //Retrieve the title and rating of movies from the IMDb dataset 
+//Retrieve the title and rating of movies from the IMDb dataset 
 //that were released in 2014, belong to a genre starting with 'C', 
 //and had a budget exceeding 4 Crore.
 
