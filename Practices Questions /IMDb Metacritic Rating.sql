@@ -2,7 +2,7 @@
 //whose Metacritic rating is more than 60 
 //and Domestic collections exceed 10 Crores.
 
-SELECT title, rating
+ SELECT title, rating
 FROM movies
 WHERE year = 2012
   AND metacritic > 60
