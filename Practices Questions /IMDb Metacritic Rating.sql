@@ -5,5 +5,5 @@
  SELECT title, rating
 FROM movies
 WHERE year = 2012
-  AND metacritic > 60
-  AND domestic_collection > 100000000;
+AND metacritic > 60
+ AND domestic_collection > 100000000;
