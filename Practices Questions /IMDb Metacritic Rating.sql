@@ -1,6 +1,6 @@
 //Print the title and ratings of the movies released in 2012 
 //whose Metacritic rating is more than 60 
-//and Domestic collections exceed 10 Crores.
+//Domestic collections exceed 10 Crores.
 
  SELECT title, rating
 FROM movies
