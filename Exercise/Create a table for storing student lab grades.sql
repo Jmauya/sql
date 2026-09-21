@@ -1,4 +1,5 @@
 CREATE TABLE Lab_grades (
+  
 student_id CHAR(4),
 name VARCHAR(30),
 major CHAR(3),
